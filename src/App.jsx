@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import Navbar from './components/Navbar/Navbar.jsx'
+import Navbar from './Components/Navbar/Navbar.jsx'
 import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home/Home'
-import Cart from './pages/Cart/Cart'
+import Home from './Pages/Home/Home'
+import Cart from './Pages/Cart/Cart'
 import Placeorder from './Pages/Placeorder/Placeorder.jsx'
-import Footer from './components/Footer/Footer.jsx'
+import Footer from './Components/Footer/Footer.jsx'
 import Login from './Components/Login/Login.jsx'
 
 const App = () => {
